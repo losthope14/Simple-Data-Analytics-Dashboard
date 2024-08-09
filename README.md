@@ -1,5 +1,7 @@
 # E-Commerce Public Dashboard ✨
 
+Proyek ini dibuat sebagai submission untuk kursus Data Analytics with Python di Dicoding. Dashboard ini dapat digunakan untuk menampilkan data e-commerce yang mencakup data penjualan per bulan, revenue, dan lain-lain.
+
 ## Setup environment
 ```
 install visual studio code
