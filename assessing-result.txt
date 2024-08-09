@@ -1,0 +1,29 @@
+Data Customer:
+Tidak ada masalah
+
+Data Geolokasi:
+- Terdapat data duplikat
+
+Data Order Items:
+- Ubah tipe data kolom shipping_limit_date ke date
+- Ada kemungkinan outlier pada kolom order_item_id, price, dan freight_value
+
+Data Order Payments:
+- Ada kemungkinan outlier pada kolom payment_sequential, payment_installments, dan payment_values
+
+Data Order Reviews:
+- Terdapat missing values pada kolom review_comment_title dan review_comment_message
+- Ubah tipe data kolom creation_date dan answer_timestamp ke date
+
+Data Orders:
+- Terdapat missing value pada kolom 'order_approved_at', 'order_delivered_carrier_date', 'order_delivered_customer_date'
+- Ubah tipe data kolom 'order_purchase_timestamp', 'order_approved_at', 'order_delivered_carrier_date', 'order_delivered_customer_date', 'order_estimated_delivery_date' ke date
+
+Data Kategori Produk:
+Tidak ada masalah
+
+Data Produk:
+- Terdapat missing value pada kolom product_category_name, product_name_length, product_description_length, dan products_photos_qty
+
+Data Seller:
+Tidak ada masalah
